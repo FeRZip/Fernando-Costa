@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Locadora Nando.zip</title>
+
+	<!-- arquivo CSS próprio-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<!-- Java Script -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Menu Navbar-->
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<!-- Imagem e Título -->
+			<img style="width:3%;" src="img/claquete.png">
+			<a class="navbar-brand" href="#topo">Locadora Nando.zip</a>
+			<!-- Div com itens clicáveis -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href="#tabFilmes">Filmes Disponíveis</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#drop" id="dropGeneros" role="button" data-bs-toggle="dropdown" > Filmes por Categoria </a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#gAcao">Ação		</a></li>
+							<li><a class="dropdown-item" href="#gAnim">Animação	</a></li>
+							<li><a class="dropdown-item" href="#gRoman">Romance	</a></li>
+							<li><a class="dropdown-item" href="#gSusp">Suspense	</a></li>
+							<li><a class="dropdown-item" href="#gDra">Drama  	</a></li>
+							<li><a class="dropdown-item" href="#gCom">Comédia	</a></li>
+						</ul>
+					</li>
+			        <li class="nav-item">
+				        <a class="nav-link" href="#cadFilmes">Cadastrar Filmes</a>
+			        </li>
+		        </ul>
+	        </div>
+	        
+	    </div>
+    </nav>
+
+    <!-- Titulo Locadora -->
+    <h1 class="display-1 text-center mb-5"><mark>ADORO+CINEMA</mark></h1>
+
+    <!-- Tabela filmes disponíveis -->
+    <div class="container">
+	    <table class="table table-striped table-hover">
+
+	    	<!-- Linha com títulos das colunas -->
+		    <thead>
+			    <tr>
+				    <th scope="col">Código		     </th>
+					<th scope="col">Título		     </th>
+					<th scope="col">Diretor		     </th>
+					<th scope="col">Lançamento	     </th>
+					<th scope="col">Gênero		     </th>
+					<th scope="col">Ator/Atriz Prin. </th>
+					<th scope="col">IMDb		     </th>
+			    </tr>
+		    </thead>
+		    <tbody>
+
+		    	<!-- Linha expandida com gênero do filme -->
+			    <tr>
+				   <th class="text-center table-primary" colspan="7" id="#gAcao"> Ação </th>
+			    </tr>
+			    <tr>
+				    <th scope="rol">1</th>
+				    <td>Príncipe da Pérsia: As Areias do Tempo</td>
+				    <td>Mike Newell</td>
+				    <td>3 de junho de 2010</td>
+				    <td>Ação</td>
+				    <td>Jake Gyllenhaal</td>
+				    <td>9.0/10</td>
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">2</th>
+				    <td> Linha de Ação     </td>
+				    <td> Allen Hughes      </td>
+				    <td>15 de março de 2013</td>
+				    <td>Ação               </td>
+				    <td>Mark Wahlberg      </td>
+				    <td>8.5/10             </td>
+				</tr>
+
+				<tr>
+				    <th scope="rol">3</th>
+				    <td>Gladiador          </td>
+				    <td>Ridley Scott       </td>
+				    <td>19 de maio de 2000 </td>
+				    <td>Ação               </td>
+				    <td>Russell Crowe      </td>
+				    <td>9.5/10             </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">4</th>
+				    <td>O Império Contra-Ataca </td>
+				    <td>Irvin Kershner         </td>
+				    <td>21 de julho de 1980    </td>
+				    <td>Ação                   </td>
+				    <td>Mark Hamill            </td>
+				    <td>8,7/10                 </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">5</th>
+				    <td>Batman: O Cavaleiro das Trevas </td>
+				    <td>Christopher Nolan              </td>
+				    <td>18 de julho de 2008            </td>
+				    <td>Ação                           </td>
+				    <td>Christian Bale                 </td>
+				    <td>9,0/10                         </td>    
+			    </tr> 
+
+			    <!-- Linha expandida com gênero do filme -->
+			    <tr>
+				   <th class="text-center table-primary" colspan="7" id="#gAcao"> Animação </th>
+			    </tr>
+			    <tr>
+				    <th scope="rol">6</th>
+				    <td>O Rei Leão               </td>
+				    <td>Rob Minkoff,Roger Allers </td>
+				    <td>8 de julho de 1994       </td>
+				    <td>Animação                 </td>
+				    <td>James Earl Jones (voz)   </td>
+				    <td>8.5/10                   </td>
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">7</th>
+				    <td>A Viagem de Chihiro </td>
+				    <td>Hayao Miyazaki      </td>
+				    <td>18 de julho de 2003 </td>
+				    <td>Animação            </td>
+				    <td>Rumi Hiiragi (voz)  </td>
+				    <td>8.6/10              </td>
+				</tr>
+
+				<tr>
+				    <th scope="rol">8</th>
+				    <td>Túmulo dos Vagalumes   </td>
+				    <td>Isao Takahata          </td>
+				    <td>24 de novembro de 1989 </td>
+				    <td>Animação               </td>
+				    <td>Tsutomu Tatsumi (voz)  </td>
+				    <td>8,5/10                 </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">9</th>
+				    <td>Homem-Aranha no Arranhaverso                </td>
+				    <td>Bob Persichetti,Peter Ramsey,Rodney Rothman </td>
+				    <td>10 de janeiro de 2019                       </td>
+				    <td>Animação                                    </td>
+				    <td> Shameik Moore (voz)                        </td>
+				    <td>9.0/10                                      </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">10</th>
+				    <td>Exôdo: Uma Animação Épica </td>
+				    <td>Josh Carroll              </td>
+				    <td>20 de maio de 2021        </td>
+				    <td>Animação                  </td>
+				    <td> Bruce Richardson (voz)   </td>
+				    <td>9,4/10                    </td>    
+			    </tr>
+
+                <!-- Linha expandida com gênero do filme -->
+                <tr>
+			    <th class="text-center table-primary" colspan="7" id="#gAcao"> Romance </th>
+			    </tr>
+			    <tr>
+				    <th scope="rol">11</th>
+				    <td>Dirty Dancing: ritmo quente  </td>
+				    <td>Emile Ardolino               </td>
+				    <td>25 de setembro de 1987       </td>
+				    <td>Romance                      </td>
+				    <td>Jennifer Grey,Patrick Swayze </td>
+				    <td>7/10                         </td>
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">12</th>
+				    <td>Ghost: do outro lado da vida </td>
+				    <td>Jerry Zucker                 </td>
+				    <td>1 de novembro de 1990        </td>
+				    <td>Romance                      </td>
+				    <td>Demi Moore, Patrick Swayze   </td>
+				    <td>7.1/10                       </td>
+				</tr>
+
+				<tr>
+				    <th scope="rol">13</th>
+				    <td>Amor à segunda vista   </td>
+				    <td>Marc Lawrence          </td>
+				    <td>12 de dezembro de 2002 </td>
+				    <td>Romance                </td>
+				    <td>Sandra Bullock         </td>
+				    <td>6.1/10                 </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">14</th>
+				    <td>A Culpa é das Estrelas </td>
+				    <td> Josh Boone            </td>
+				    <td>5 de junho de 2014     </td>
+				    <td>Romance                </td>
+				    <td>Shailene Woodley       </td>
+				    <td>9.7/10                 </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">15</th>
+				    <td>Meu Primeiro Amor               </td>
+				    <td> Howard Zieff                   </td>
+				    <td>15 de março de 2020             </td>
+				    <td>Romance                         </td>
+				    <td>Macaulay Culkin                 </td>
+				    <td>9,3/10                          </td>    
+			    </tr>
+
+                <!-- Linha expandida com gênero do filme -->
+			    <tr>
+			    <th class="text-center table-primary" colspan="7" id="#gAcao"> Suspense </th>
+			    </tr>
+			    <tr>
+				    <th scope="rol">16</th>
+				    <td>Cidade de Deus                 </td>
+				    <td>Fernando Meirelles, Kátia Lund </td>
+				    <td>30 de agosto de 2002           </td>
+				    <td>Suspense                       </td>
+				    <td>Alexandre Rodrigues            </td>
+				    <td>8.6/10                         </td>
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">17</th>
+				    <td>Garota Exemplar      </td>
+				    <td>David Fincher        </td>
+				    <td>2 de outubro de 2014 </td>
+				    <td>Suspense             </td>
+				    <td>Rosamund Pike        </td>
+				    <td>8.1/10               </td>
+				</tr>
+
+				<tr>
+				    <th scope="rol">18</th>
+				    <td>Corra!             </td>
+				    <td>Jordan Peele       </td>
+				    <td>18 de maio de 2017 </td>
+				    <td>Suspense           </td>
+				    <td>Daniel Kaluuya     </td>
+				    <td>8.6/10             </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">19</th>
+				    <td>Chamada de Emergência </td>
+				    <td>  Brad Anderson       </td>
+				    <td>12 de abril de 2013   </td>
+				    <td>Suspense              </td>
+				    <td> Halle Berry          </td>
+				    <td>9.5/10                </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">20</th>
+				    <td>A Mulher na Janela </td>
+				    <td>Joe Wright         </td>
+				    <td>15 de maio de 2021 </td>
+				    <td>Suspense           </td>
+				    <td> Amy Adams         </td>
+				    <td>8.2/10             </td>    
+			    </tr>
+
+			    <!-- Linha expandida com gênero do filme -->
+                <tr>
+			    <th class="text-center table-primary" colspan="7" id="#gAcao"> Drama </th>
+			    </tr>
+			    <tr>
+				    <th scope="rol">21</th>
+				    <td>A Lista de Schindler    </td>
+				    <td>Steven Spielberg        </td>
+				    <td>31 de dezembro de 1993  </td>
+				    <td>Drama                   </td>
+				    <td>Liam Neeson             </td>
+				    <td>9,0/10                  </td>
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">22</th>
+				    <td>O Poderoso Chefão    </td>
+				    <td>Francis Ford Coppola </td>
+				    <td>7 de julho de 1972   </td>
+				    <td>Drama                </td>
+				    <td>Al Pacino            </td>
+				    <td>9.2/10               </td>
+				</tr>
+
+				<tr>
+				    <th scope="rol">23</th>
+				    <td>Um Sonho de Liberdade  </td>
+				    <td>Frank Darabont         </td>
+				    <td>17 de março de 1995    </td>
+				    <td>Drama                  </td>
+				    <td>Morgan Freeman         </td>
+				    <td>9.3/10                 </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">24</th>
+				    <td>Dunkirk             </td>
+				    <td>Christopher Nolan   </td>
+				    <td>27 de julho de 2017 </td>
+				    <td>Drama               </td>
+				    <td>Fionn Whitehead     </td>
+				    <td>9.4/10              </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">25</th>
+				    <td>O Bombardeiro </td>
+				    <td>Ole Bornedal         </td>
+				    <td>9 de março de 2022 </td>
+				    <td>Drama           </td>
+				    <td>Alex Høgh Andersen        </td>
+				    <td>9.6/10             </td>    
+			    </tr>
+
+			    <!-- Linha expandida com gênero do filme -->
+			    <tr>
+			    <th class="text-center table-primary" colspan="7" id="#gAcao"> Comédia </th>
+			    </tr>
+			    <tr>
+				    <th scope="rol">26</th>
+				    <td>Metal Lords        </td>
+				    <td>Peter Sollett      </td>
+				    <td>8 de abril de 2022 </td>
+				    <td>Comédia            </td>
+				    <td>Jaeden Martell     </td>
+				    <td>7.9/10             </td>
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">27</th>
+				    <td>Meu Nome é Dolemite </td>
+				    <td>Craig Brewer        </td>
+				    <td>8 de abril de 2020  </td>
+				    <td>Comédia             </td>
+				    <td>Eddie Murphy        </td>
+				    <td>8.2/10              </td>
+				</tr>
+
+				<tr>
+				    <th scope="rol">28</th>
+				    <td>Os Caça-Fantasmas      </td>
+				    <td>Ivan Reitman           </td>
+				    <td>20 de dezembro de 1984 </td>
+				    <td>Suspense               </td>
+				    <td>Bill Murray            </td>
+				    <td>7.8/10                 </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">29</th>
+				    <td>Apertem os Cintos, o Piloto Sumiu        </td>
+				    <td>Jim Abrahams, David Zucker, Jerry Zucker </td>
+				    <td>26 de dezembro de 1980                   </td>
+				    <td>Comédia                                  </td>
+				    <td>Robert Hays                              </td>
+				    <td>7.7/10                                   </td>    
+			    </tr>
+
+			    <tr>
+				    <th scope="rol">30</th>
+				    <td>As Branquelas               </td>
+				    <td> Keenen Ivory Wayans        </td>
+				    <td>27 de agosto de 2004        </td>
+				    <td>Comédia                     </td>
+				    <td>Shawn Wayans, Marlon Wayans </td>
+				    <td>9.5/10                      </td>    
+			    </tr>
+
+			</div>
+
+		</tbody>
+
+	</table>
+	<!-- Final da tabela -->
+
+</div>
+
+<!-- Divisor de página -->
+<div class="m-5">
+	<hr class="border-primary border-3 opacity-75">
+</div>	
+
+<div class="container mb-5">
+	<h2 class="text-center">Cadastro de Filmes</h2>
+    <form>
+	<div class="row">
+		<div class="mb-3 col">
+			<label for="codFilme" class="form-label">Código</label>
+		    <input type="text" class="form-control" id="codFilme"placeholder="00">
+	    </div>
+	   
+	    <div class="mb-3 col">
+	        <label for="anoFilme" class="form-label">Lançamento</label>
+	        <input type="date" class="form-control" id="AnoFilme" placeholder="DD/MM/AAAA">
+	    </div>
+	</div>
+
+	<div class="row">
+		<div class="mb-3 col">
+			<label for="tituloFilme" class="form-label">Título</label>
+			<input type="text" class="form-control" id="tilutoFilme">	
+		</div>
+
+		<div class="mb-3 col">
+			<label for="DiretorFilme" class="form-label">Diretor</label>
+			<input type="text" class="form-control"id="DiretorFilme">	
+		</div>
+
+		<div class="row">
+		<div class="mb-3 col">
+			<label for="ator/atrizprincipalFilme" class="form-label">Ator/Atriz Principal</label>
+			<input type="text" class="form-control" id="ator/atrizprincipalFilme">	
+		</div>
+
+		<div class="mb-3 col">
+			<label for="NotaIMDbFilme" class="form-label">Nota IMDb</label>
+			<input type="number" class="form-control"id="NotaIMDbFilme">	
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div class="mb-3 col form-check">
+			<input type="radio" id="radiogeneroAcao" name="radio" class="form-check-input"value="acao">
+			<label for="radiogeneroAcao" class="form-label">Ação</label>
+		</div>
+
+		<div class="mb-3 col form-check">
+			<input type="radio" id="radiogeneroAnimaçao" name="radio" class="form-check-input"value="animaçao">
+			<label for="radiogeneroAnimaçao" class="form-label">Animação</label>
+		</div>
+
+		<div class="mb-3 col form-check">
+			<input type="radio" id="radiogeneroRomance" name="radio" class="form-check-input"value="romance">
+			<label for="radiogeneroRomance" class="form-label">Romance</label>
+		</div>
+
+		<div class="mb-3 col form-check">
+			<input type="radio" id="radiogeneroSuspense" name="radio" class="form-check-input"value="suspense">
+			<label for="radiogeneroSuspense" class="form-label">Suspense</label>
+		</div>
+
+		<div class="mb-3 col form-check">
+			<input type="radio" id="radiogeneroDrama" name="radio" class="form-check-input"value="drama">
+			<label for="radiogeneroDrama" class="form-label">Drama</label>
+		</div>
+
+		<div class="mb-3 col form-check">
+			<input type="radio" id="radiogeneroComedia" name="radio" class="form-check-input"value="comedia">
+			<label for="radiogeneroComedia" class="form-label">Comédia</label>
+		</div>
+		
+	</div>
+
+	<div class="col-auto">
+		<button type="submit" class="btn btn-primary mb-3">Cadastrar</button>
+	</div>
+
+    </form>
+</div>
+
+</body>
+</html>
