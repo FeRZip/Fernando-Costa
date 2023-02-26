@@ -3,7 +3,7 @@
 ## Construção
 
 Projeto feito em aula  utilizando  as ferramentas  propostas em curso,html,css e frameworks.
-Página estatica  com links  e projetos acessiveis realizados durante o curso  - fornt End  mais pra ti.
+Página estática,  com links  e projetos acessiveis realizados durante o curso  - fornt End do Zero ao primeiro Site, Mais pra Ti.
 
 
 ## Projeto Estante de Livros
@@ -29,4 +29,3 @@ proporcionando uma experiência divertida ao usuário.
 
 Criação de um cartão de visitas virtual, com formato e disigner moderno,com efeitos e animações, aprimoramento de estruturas HTML e CSS,iniciação de recursos como : flip,box-shadow e transform (responsável por fazer o cartão virar no eixo),utilização de extensões do CSS, como o "webkit".
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
