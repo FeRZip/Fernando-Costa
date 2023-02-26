@@ -3,23 +3,30 @@
 ## Construção
 
 Projeto feito em aula  utilizando  as ferramentas  propostas em curso,html,css e frameworks.
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 Página estatica  com links  e projetos acessiveis realizados durante o curso  - fornt End  mais pra ti.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+## Projeto Estante de Livros
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+Primeiro projeto guiado com HTML e CSS,desemvolvido no curso Do Zero ao primeiro Site,ofertado pelo grupo +praTi.Neste projeto dei meus primeiros passos 
+com o desenvolvimento Web e trabalhei com divisões,imagens,listas e tabelas.
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## Projeto Locadora
 
-## Security Vulnerabilities
+Projeto de locadora desenvolvendo o conhecimento de CSS como ,estruturas estéticas: CSS(colunas,transições,animações,tooltips,bordas,arredondamentos, 
+gradiente e botões).Desenvolvimento de Frameworks(bootstrap) e formulários.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
+## Projeto Mario Interativo
+
+Contrução de site interativo com o aprimoramento do JavaScript na estrutura HTML, animações e estilos CSS.
+Aprendizado em página Web que possuem algo além do conteúdo e com base na interação do usuário,têm alguma funcionalidade estética,
+proporcionando uma experiência divertida ao usuário.
+
+
+## Projeto Cartão
+
+Criação de um cartão de visitas virtual, com formato e disigner moderno,com efeitos e animações, aprimoramento de estruturas HTML e CSS,iniciação de recursos como : flip,box-shadow e transform (responsável por fazer o cartão virar no eixo),utilização de extensões do CSS, como o "webkit".
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
